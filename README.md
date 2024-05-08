@@ -18,6 +18,7 @@ STEP 4:Apply the various data visualization tools wherever necessary.
 STEP 5:Include Necessary parameters in each functions.
 
 # Coding and Output:
+```
  Developed by: D Vergin Jenifer
 Register no:212223240174
 import seaborn as sns
@@ -70,6 +71,7 @@ sns.set(style='whitegrid')
 sns.violinplot(x=df["total_bill"])
 sns.kdeplot(data=df,x="total_bill",hue="time",multiple='fill',linewidth=3,palette="Set2",alpha=0.8)
 sns.kdeplot(data=df,x="total_bill",hue="time",multiple="layer",linewidth=3,palette="Set2",alpha=0.8)
+```
 ![image](https://github.com/VerginJenifer/EXNO-6-DS/assets/136251012/3d7db9e5-a2cd-441d-8c9f-61dfe72f4d24)
 ![image](https://github.com/VerginJenifer/EXNO-6-DS/assets/136251012/f88157e4-e30c-43a3-a4aa-ca1365a67329)
 ![327994048-4b5ba758-c8ac-47f5-ba4a-15d3139a8e1e](https://github.com/VerginJenifer/EXNO-6-DS/assets/136251012/f2804471-e587-4ff7-9ce6-cebf88053c92)
